@@ -1,61 +1,54 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Shengjie Lin",
+    "email": "slin@ttic.edu",
+    "phone": "(773) 886-6932",
+    "url": "https://shengjie-lin.github.io/",
+    "summary": "Currently a 6th year PhD student at TTI-Chicago studying computer vision, robotics and machine learning under the supervision of Prof. Matthew R. Walter.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "6045 S. Kenwood Ave",
+      "postalCode": "IL 60637",
+      "city": "Chicago",
       "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
-  },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
-      ]
+      "region": "Illinois"
     }
-  ],
-  "volunteer": [],
+  },
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Toyota Technological Institute at Chicago",
+      "url": "https://www.ttic.edu/",
+      "area": "Computer Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
+      "startDate": "2017-10",
+      "endDate": "",
       "courses": [
-        "Theory of Relativity"
+        "TTIC 31010: Algorithms",
+        "TTIC 31070: Convex Optimization",
+        "TTIC 31230: Fundamentals of Deep Learning",
+        "TTIC 31040: Introduction to Computer Vision",
+        "CMSC 30600: Introduction to Robotics",
+        "TTIC 31020: Introduction to Statistical Machine Learning",
+        "TTIC 31150: Mathematical Toolkit",
+        "TTIC 31170: Planning, Learning and Estimation for Robotics and Artificial Intelligence",
+        "TTIC 31180: Probabilistic Graphical Models",
+        "TTIC 31240: Self-driving Vehicles: Models and Algorithms for Autonomy"
       ]
+    },
+    {
+      "institution": "Tsinghua University",
+      "url": "https://www.tsinghua.edu.cn/en/",
+      "area": "Electronic Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2013-8",
+      "endDate": "2017-7"
     }
   ],
-  "awards": [
+  "teaching": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "startDate": "2021-3",
+      "endDate": "2021-5",
+      "position": "Teaching Assistant",
+      "course": "TTIC 31170: Planning, Learning and Estimation for Robotics and Artificial Intelligence"
     }
   ],
   "certificates": [],
@@ -63,7 +56,7 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker"
     },
     {
