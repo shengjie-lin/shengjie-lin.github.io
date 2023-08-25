@@ -4,7 +4,7 @@ title: Baxter Pose Following
 description: Empower the Baxter robot to follow a human's pose.
 img: assets/img/baxter-pose-following.jpg
 importance: 1
-category: event
+category: events
 ---
 
 <div class="row">

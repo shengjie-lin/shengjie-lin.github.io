@@ -4,7 +4,7 @@ title: Code as Policies on UR5e
 description: Implementation of Code as Policies on the UR5e robot.
 img: assets/img/code-as-policies-ur5e.png
 importance: 2
-category: event
+category: events
 ---
 
 <div class="row">

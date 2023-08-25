@@ -4,7 +4,7 @@ title: Baxter Rubik's Cube
 description: Solving a Rubik's Cube with the Baxter robot.
 img: assets/img/baxter-rubiks-cube.jpg
 importance: 4
-category: event
+category: events
 ---
 
 <div class="row">
