@@ -11,7 +11,7 @@ category: events
 
 As a cross-disciplinary endeavor to bring robotics to artistic creation, I designed the hardware system and developed the software framework for `Infant`, an interactive installation demonstrating a digital infant's reaction to external stimuli. The idea of `Infant` is formulated jointly with a student from the School of the Art Institute of Chicago (SAIC), and the project was featured in the 2020 SAIC Shows.
 
-* With nerual style transfer, the infant's state of alertness and comfort level are visualized via the gradation of art style in its skin texture.
+* With neural style transfer, the infant's state of alertness and comfort level are visualized via the gradation of art style in its skin texture.
 * With face detection and tracking, the infant gets alerted by approaching and leaving of audiences. Such alert attenuates over time as the same audience stays longer within sight.
 * With audio sensing, the infant is also alerted by playful sounds. However, loud noises discomfort the infant.
 * With pressure data processing, the infant's comfort level is affected by touching. Gentle and steady touches comfort the infant, while sudden and strong ones discomfort it.
