@@ -1,27 +1,80 @@
 ---
 layout: page
-title: NeRFuser
-description: Scalable scene representation via NeRF registration and blending.
-img: assets/img/publication_preview/nerfuser.svg
-importance: 1
-category: research
+title: project 4
+description: another without an image
+img:
+importance: 3
+category: fun
 ---
+
+Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.
+
+To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+
+    ---
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/12.jpg
+    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/nerfuser.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
 
-[[code]](https://github.com/ripl/nerfuser) [[paper]](https://arxiv.org/abs/2305.13307)
+You can also put regular text between your rows of images.
+Say you wanted to write a little bit about your project before you posted the rest of the images.
+You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
 
-With another member of RIPL at TTIC, I developed `NeRFuser`, a software framework that uses an arbitrary number of pre-generated neural radiance fields (NeRFs) to represent a large-scale scene. `NeRFuser` registers individual NeRFs in a shared global coordinate system, and synthesizes better quality novel views by blending the visual information from the source NeRFs at the ray sample level. An initial version of this work was presented at [Neural Fields ICLR 2023 Workshop](https://sites.google.com/view/neural-fields/home), while the extended version is currently under review.
 
-* Given pre-generated NeRFs, `NeRFuser` registers them by
-    1. rendering novel views at camera poses sampled in each NeRF's local coordinate system with heuristics;
-    2. re-purposing an off-the-shelf structure-from-motion algorithm to recover the poses of the synthesized images in a global coordinate system; and
-    3. using the recovered poses to solve for the transform from the global coordinate system to each NeRF.
-* Given the query camera pose and the transforms among the source NeRFs as solved in the registration phase, `NeRFuser` then blends the visual information from the source NeRFs at the ray sample level. Specifically,
-    1. we only use NeRFs that are sufficiently close (when compared to the closest one) to the query camera for blending, which not only reduces time cost, but also improves image quality;
-    2. when it comes to the ray corresponding to a pixel to be rendered, we merge the sets of ray samples proposed by each kept source NeRF, essentially creating the union set of ray samples with their color and termination probabilities properly set; and
-    3. we blend the ray samples following inverse distance weighting, where the distance between the ray sample and each NeRF's center is used.
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
+
+
+The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
+
+{% raw %}
+```html
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+```
+{% endraw %}
