@@ -14,6 +14,13 @@
   },
   "publications": [
     {
+      "name": "NeRF Registration, Blending and Fusion",
+      "url": "https://drive.google.com/file/d/1RaleduMk11iYXdeqCLLioU1wsgebgH0g/view",
+      "publisher": "Jiading Fang*, Shengjie Lin*, Igor Vasiljevic, Vitor Guizilini, Rares Ambrus, Adrien Gaidon, Gregory Shakhnarovich, Matthew R. Walter",
+      "summary": "ICLR Workshop on Neural Fields across Fields",
+      "releaseDate": "2023"
+    },
+    {
       "name": "NeRFuser: Large-Scale Scene Representation by NeRF Fusion",
       "url": "https://arxiv.org/abs/2305.13307",
       "publisher": "Jiading Fang*, Shengjie Lin*, Igor Vasiljevic, Vitor Guizilini, Rares Ambrus, Adrien Gaidon, Gregory Shakhnarovich, Matthew R. Walter",
@@ -28,10 +35,9 @@
       "releaseDate": "2023"
     },
     {
-      "name": "NeRF Registration, Blending and Fusion",
-      "url": "https://drive.google.com/file/d/1RaleduMk11iYXdeqCLLioU1wsgebgH0g/view",
-      "publisher": "Jiading Fang*, Shengjie Lin*, Igor Vasiljevic, Vitor Guizilini, Rares Ambrus, Adrien Gaidon, Gregory Shakhnarovich, Matthew R. Walter",
-      "summary": "ICLR Workshop on Neural Fields across Fields",
+      "name": "Transcribe3D: Grounding LLMs Using Transcribed Information for 3D Referential Reasoning with Self-Corrected Finetuning",
+      "publisher": "Jiading Fang*, Xiangshan Tan*, Shengjie Lin*, Hongyuan Mei, Matthew R. Walter",
+      "summary": "Under review",
       "releaseDate": "2023"
     }
   ],
