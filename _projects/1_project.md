@@ -15,7 +15,7 @@ category: events
 
 [[code]](https://github.com/ripl/baxter-pose-following)
 
-With the help of other members of RIPL at TTIC, I developed the software to empower the Baxter robot to follow a human's pose in real time. The system was showcased at the Museum of Science and Industry in Chicago for the 2022 and 2023 National Robotics Week. The installation gained great popularity, and had the honor to stay in the Museum for regular exhibition.
+With the help of other members of RIPL at TTIC, I developed the software to empower the Baxter robot to follow a human's pose in real time. The system was showcased at the Museum of Science and Industry in Chicago for the 2022 and 2023 National Robotics Week, and at University of Chicago for the 2023 South Side Science Festival. The installation gained great popularity, and had the honor to stay in the Museum for regular exhibition.
 
 * With the RGB-D data streamed from an Intel RealSense camera, I took advantage of the state-of-the-art (as of 2023) pose model [RTMPose-m](https://github.com/open-mmlab/mmpose/tree/main/projects/rtmpose) for detecting human poses in the image stream.
 * Considering the potentailly huge crowd, I implemented a robust tracking algorithm to focus on a highlighted pose over frames, while recognizing the user's intetion of tranfering the focus to other people.
