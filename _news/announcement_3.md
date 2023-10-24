@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-06-30
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our paper **Statler: State-Maintaining Language Models for Embodied Reasoning** is now available on [Arxiv](https://arxiv.org/abs/2306.17840).
