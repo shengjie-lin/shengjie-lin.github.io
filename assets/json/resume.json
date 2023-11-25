@@ -56,11 +56,11 @@
       ]
     },
     {
-      "name": "Code as Policies on UR5e",
+      "name": "Code as Policies on UR5",
       "url": "https://shengjie-lin.github.io/projects/2_project/",
       "startDate": "2023-2",
       "endDate": "2023-4",
-      "summary": "Implementation of Code as Policies on the UR5e robot. The project was presented during the 2023 National Robotics Week at the Museum of Science and Industry in Chicago.",
+      "summary": "Implementation of Code as Policies on the UR5 robot. The project was presented during the 2023 National Robotics Week at the Museum of Science and Industry in Chicago.",
       "highlights": [
         "Robust speech-to-text as input aided by wake-up-word mechanism and dynamic ambient sound adaptation.",
         "Flexible robot action as output via on-the-fly GPT-powered code generation.",
