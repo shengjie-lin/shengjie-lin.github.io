@@ -2,14 +2,14 @@
 layout: page
 title: Code as Policies on UR5
 description: Implementation of Code as Policies on the UR5 robot.
-img: assets/img/code-as-policies-UR5.png
+img: assets/img/code-as-policies-ur5.png
 importance: 2
 category: events
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/code-as-policies-UR5.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.html path="assets/video/code-as-policies-ur5.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 
