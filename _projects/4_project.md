@@ -15,7 +15,7 @@ category: research
 
 [[code]](https://github.com/ripl/nerfuser) [[paper]](https://arxiv.org/abs/2305.13307)
 
-With another member of RIPL at TTIC, I developed `NeRFuser`, a software framework that uses an arbitrary number of pre-generated neural radiance fields (NeRFs) to represent a large-scale scene. `NeRFuser` registers individual NeRFs in a shared global coordinate system, and synthesizes better quality novel views by blending the visual information from the source NeRFs at the ray sample level. An initial version of this work was presented at the [Neural Fields Workshop @ ICLR 2023](https://sites.google.com/view/neural-fields/home), while the extended version is currently under review.
+With another member of RIPL at TTIC, I developed `NeRFuser`, a software framework that uses an arbitrary number of pre-generated neural radiance fields (NeRFs) to represent a large-scale scene. `NeRFuser` registers individual NeRFs in a shared global coordinate system, and synthesizes better quality novel views by blending the visual information from the source NeRFs at the ray sample level. An initial version of this work was presented at the [Neural Fields Workshop @ ICLR 2023](https://sites.google.com/view/neural-fields/home).
 
 * Given pre-generated NeRFs, `NeRFuser` registers them by
     1. rendering novel views at camera poses sampled in each NeRF's local coordinate system with heuristics;
