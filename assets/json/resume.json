@@ -3,7 +3,7 @@
     "name": "Shengjie Lin",
     "email": "slin@ttic.edu",
     "phone": "(773) 886-6932",
-    "summary": "PhD student at TTI-Chicago studying computer vision, robotics and machine learning under the supervision of Prof. Matthew R. Walter.",
+    "summary": "Ph.D. student at TTI-Chicago studying computer vision, robotics and machine learning under the supervision of Prof. Matthew R. Walter.",
     "location": {
       "address": "6045 S. Kenwood Ave",
       "postalCode": "IL 60637",
@@ -14,17 +14,10 @@
   },
   "publications": [
     {
-      "name": "NeRF Registration, Blending and Fusion",
-      "url": "https://drive.google.com/file/d/1RaleduMk11iYXdeqCLLioU1wsgebgH0g/view",
-      "publisher": "Jiading Fang*, Shengjie Lin*, Igor Vasiljevic, Vitor Guizilini, Rares Ambrus, Adrien Gaidon, Gregory Shakhnarovich, Matthew R. Walter",
-      "summary": "ICLR Workshop on Neural Fields across Fields",
-      "releaseDate": "2023"
-    },
-    {
-      "name": "NeRFuser: Large-Scale Scene Representation by NeRF Fusion",
+      "name": "NeRFuser: Scalable Scene Representation by NeRF Registration and Blending",
       "url": "https://arxiv.org/abs/2305.13307",
       "publisher": "Jiading Fang*, Shengjie Lin*, Igor Vasiljevic, Vitor Guizilini, Rares Ambrus, Adrien Gaidon, Gregory Shakhnarovich, Matthew R. Walter",
-      "summary": "Under review",
+      "summary": "ICLR Workshop on Neural Fields across Fields",
       "releaseDate": "2023"
     },
     {
@@ -35,7 +28,8 @@
       "releaseDate": "2023"
     },
     {
-      "name": "Transcribe3D: Grounding LLMs Using Transcribed Information for 3D Referential Reasoning with Self-Corrected Finetuning",
+      "name": "Transcrib3D: 3D Referring Expression Resolution through Large Language Models",
+      "url": "https://openreview.net/forum?id=7j3sdUZMTF",
       "publisher": "Jiading Fang*, Xiangshan Tan*, Shengjie Lin*, Hongyuan Mei, Matthew R. Walter",
       "summary": "CoRL Workshop on Language and Robot Learning",
       "releaseDate": "2023"

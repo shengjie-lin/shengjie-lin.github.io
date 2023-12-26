@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **Transcribe3D: Grounding LLMs Using Transcribed Information for 3D Referential Reasoning with Self-Corrected Finetuning** is accepted to LangRob @ CoRL 2023!
+Our paper **Transcribe3D: Grounding LLMs Using Transcribed Information for 3D Referential Reasoning with Self-Corrected Finetuning** is accepted to the LangRob Workshop @ CoRL 2023!

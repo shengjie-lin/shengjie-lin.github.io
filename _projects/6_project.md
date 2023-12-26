@@ -9,13 +9,13 @@ category: events
 
 [[code]](https://github.com/shengjie-lin/Infant) [[article]]({{'assets/pdf/Infant.pdf' | relative_url}})
 
-As a cross-disciplinary endeavor to bring robotics to artistic creation, I designed the hardware system and developed the software framework for `Infant`, an interactive installation demonstrating a digital infant's reaction to external stimuli. The idea of `Infant` is formulated jointly with a student from the School of the Art Institute of Chicago (SAIC), and the project was featured in the 2020 SAIC Shows.
+As a cross-disciplinary endeavor to bring robotics to artistic creation, I designed the hardware system and developed the software framework for `Infant`, an interactive installation demonstrating a digital infant's reaction to external stimuli. The concept of `Infant` is formulated jointly with a student from the School of the Art Institute of Chicago (SAIC), and the project was featured in the 2020 SAIC Shows.
 
 * With neural style transfer, the infant's state of alertness and comfort level are visualized via the gradation of art style in its skin texture.
-* With face detection and tracking, the infant gets alerted by approaching and leaving of audiences. Such alert attenuates over time as the same audience stays longer within sight.
-* With audio sensing, the infant is also alerted by playful sounds. However, loud noises discomfort the infant.
+* With face detection and tracking, the infant gets alerted by the approach and departure of audiences. Such alertness attenuates over time as the same audience remains longer within sight.
+* With audio sensing, the infant is also alerted by playful sounds. However, loud noises cause discomfort to the infant.
 * With pressure data processing, the infant's comfort level is affected by touching. Gentle and steady touches comfort the infant, while sudden and strong ones discomfort it.
-* With pulse sensing, the infant slowly recovers from malfuntioning caused by too much discomfort.
+* With pulse sensing, the infant slowly recovers from malfunctioning caused by too much discomfort.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

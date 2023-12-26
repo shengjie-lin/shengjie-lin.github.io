@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **NeRF Registration, Blending and Fusion** is accepted to the ICLR'23 Workshop on Neural Fields!
+Our paper **NeRF Registration, Blending and Fusion** is accepted to the Neural Fields Workshop @ ICLR 2023!
