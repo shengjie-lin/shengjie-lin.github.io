@@ -15,7 +15,7 @@ category: research
     </div>
 </div>
 
-With other members of RIPL at TTIC, we developed `Statler` based on the existing work of [Code as Policies](https://code-as-policies.github.io/). The gist of `Statler` is a state-maintaining language model, where an explicit representation of the world state is maintained over time and intended for long-horizon operations.
+With other members of RIPL at TTIC, we developed `Statler` based on the existing work of [Code as Policies](https://code-as-policies.github.io/). The gist of `Statler` is a state-maintaining language model, where an explicit representation of the world state is maintained over time and intended for long-horizon operations. The paper is accepted to ICRA 2024.
 
 * Upon receiving the user's query, `Statler` feeds it to the `world_model_reader`, which extends it with the current world state and uses it as the prompt to elicit code generation from a large language model (LLM). Specifically, GPT 3.5 is used.
 * The generated code not only enables the robot to perform the action in response, but also calls the `world_model_writer` with the necessary information to update the world state.
