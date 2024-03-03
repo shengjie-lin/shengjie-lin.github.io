@@ -41,7 +41,7 @@
       "url": "https://shengjie-lin.github.io/projects/1_project/",
       "startDate": "2022-2",
       "endDate": "2023-6",
-      "summary": "Empower the Baxter robot to follow a human's pose. The project was showcased at the Museum of Science and Industry in Chicago for the 2022 and 2023 National Robotics Week, and had the honor to stay in the Museum for regular exhibition since summer 2023.",
+      "summary": "Empower the Baxter robot to follow a human's pose. The project gained great popularity upon its debute at the Museum of Science and Industry in Chicago and has since been featured at multiple public events.",
       "highlights": [
         "Use RTMPose-m for SOTA real-time pose detection.",
         "Implement a robust tracking algorithm to focus on a highlighted pose over time.",
